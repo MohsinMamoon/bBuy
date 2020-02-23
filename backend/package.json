@@ -1,0 +1,19 @@
+{
+  "name": "buBuy_server",
+  "version": "1.0.0",
+  "description": "backend server for buBuy react web App",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "MohsinMamoonHafiz",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.8",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.1",
+    "multer": "^1.4.2"
+  }
+}
